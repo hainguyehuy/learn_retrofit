@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                     val postItem = postList.next()
                     val postBody = "Body : ${postItem.body} \n"
                     binding.tvText.append(postBody)
+
                 }
             }
         })
